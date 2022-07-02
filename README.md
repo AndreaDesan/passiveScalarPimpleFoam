@@ -1,6 +1,6 @@
 # passiveScalarPimpleFoam
 
-The repository contains the source code for the addition of a passive scalar transport to the incompressible pimpleFoam solver of OpenFoam. A detailed description of the implementation procedure and can be found in [this blogpost](https://www.centds.com/2019/08/16/adding-a-passive-scalar-transport-equation-to-pimplefoam/).
+The repository contains the source code for the addition of a passive scalar transport to the incompressible pimpleFoam solver of OpenFoam. 
 
 The passive scalar is indicated as T (for temperature) since heat transfer modelling is probably going to be the most common use for the solver. Neverthless, it can be used to track the evolution of any passive scalar which follows the following transport equation
 
